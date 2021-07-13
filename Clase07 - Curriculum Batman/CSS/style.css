@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #E6E6E6;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #005677;
+    font-size: 35px;
+    font-style: normal;
+    background: #C4C4C4;
+}
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+    background: #C4C4C4;
+    }
+section {
+    margin-left: 100px;
+}
+.lista span{
+    font-weight: bold;
+    font-style: italic;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #005677;
+}
