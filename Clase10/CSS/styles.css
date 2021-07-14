@@ -1,0 +1,48 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’)
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    position: relative;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.descuentos {
+    background-color: #1CD1B0;
+    line-height: 38px;
+}
+h1 {
+    height: 101 px;
+    background-color: #00669F;
+    
+}
+h2 {
+    text-align: center;
+}
+main {
+    
+    margin: 155px auto;
+    
+}
+section.card {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+}
+.corazon {
+    position: relative;
+    top: 15 px;
+    left: 15 px;
+    z-index: 5px;
+}
+.foto {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5px;
+    left: 90px;
+    top: 130px;
+    display: block;
+}
