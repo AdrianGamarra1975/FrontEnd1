@@ -1,0 +1,58 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’);
+
+*{
+    font-family:'Roboto', sans-serif; /* @import url */
+    box-sizing: border-box; /* Buena práctica */
+    padding: 0; /* Borra margenes propios del navegador */
+    margin: 0; /* Borra margenes propios del navegador */
+}
+h3{
+    background-color: #D18910;
+    color: #000000;
+    font-size: 48px;
+    line-height: 56px;
+    top: 4px;
+}
+h1{
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    background-color: #00669F;
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 162px;
+    font-weight: 400;
+}
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+.card{
+    display: flex;
+    flex-flow: column;
+    background-color: #F3F3F3;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    width: 805px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.foto{
+    border-radius: 50%;
+    z-index: 5px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.corazon{
+    z-index: 5px;
+}
+.fondo{
+    z-index: 0px;
+}
+.descripcion{
+    font-size: 16px;
+}
+.boton{
+    /* position: absolute; */
+    text-align: center;
+    background-color: #00669F;
+    color: #FFF9F9;
+}
