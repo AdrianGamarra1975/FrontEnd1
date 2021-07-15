@@ -1,48 +1,97 @@
-@import url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’)
+@import url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’);
 
 *{
+    font-family:'Roboto', sans-serif;
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 0; /* Borra margenes propios del navegador */
+    margin: 0; /* Borra margenes propios del navegador */
 }
-body {
-    position: relative;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-}
-.descuentos {
+h3{
     background-color: #1CD1B0;
+    font-size: 15px;
     line-height: 38px;
+    padding-left: 10px;
+    margin-bottom: 0;
 }
-h1 {
-    height: 101 px;
+header{
+    position: sticky;
+    top: 0;    
+    top: 0;
+    z-index: 30px; /* Profundidad del header para position sticky */
+    line-height: 101px;
+}
+h1{
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     background-color: #00669F;
-    
+    font-size: 40px;
+    padding-left: 28px;
+    margin-top: 0;
+    font-weight: 400;
+    z-index: 30px;
 }
-h2 {
+h2{
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 263px;
+    color: #000000;
 }
-main {
-    
+main{
     margin: 155px auto;
-    
 }
-section.card {
+.card{
     position: relative;
+    margin: 10px;
+    background-color: #F3F3F3;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
     width: 300px;
+    height: 527px;
     display: inline-block;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
-.corazon {
-    position: relative;
-    top: 15 px;
-    left: 15 px;
-    z-index: 5px;
-}
-.foto {
+.foto{
     border-radius: 50%;
     position: absolute;
     z-index: 5px;
     left: 90px;
     top: 130px;
-    display: block;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.corazon{
+    position: absolute;
+    z-index: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.fondo{
+    position: absolute;
+    z-index: 0px;
+}
+.descripcion{
+    position: absolute;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    line-height: 19px;
+    font-size: 16px;
+    color: #333333;
+}
+.boton{
+    position: absolute;
+    text-align: center;
+    background-color: #00669F;
+    color: #FFF9F9;
+    margin-top: 152px;
+    padding: 15px 36px;
+    left: 86px;
+}
+footer{
+    /* position: absolute; */
+    background-color: #00669F;
+    padding-left: 16px;
+    color: #FFF9F9;
+    font-size: 16px;
+    line-height: 51px;
+    top: 900px;
 }
